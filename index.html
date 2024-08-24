@@ -3,11 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Kurale&family=Sansita+Swashed:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Dessert Recipes</title>
   </head>
   <body>
     <div>
-      <h1>My Favourite Dessert Recipes</h1>
+      <h1 class="title">My Favourite Dessert Recipes</h1>
+    </div>
+
+    <div class="recipe-container">
+      <div class="cupcake">
+        <img class="image" src="assets/cupcake.jpeg" alt="cupcake" />
+        <a href="recipes/cupcake.html">Cupcake</a>
+      </div>
+      <div class="donuts">
+        <img
+          class="image"
+          id="donut-image"
+          src="assets/donuts.jpeg"
+          alt="cupcake"
+        />
+        <a href="recipes/donuts.html">Donuts</a>
+      </div>
+      <div class="cake">
+        <img class="image" src="assets/cake.jpeg" alt="cupcake" />
+        <a href="recipes/cake.html">Cake</a>
+      </div>
     </div>
   </body>
 </html>
