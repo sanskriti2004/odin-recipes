@@ -1,0 +1,47 @@
+* {
+  background-color: #e4c1c1;
+}
+.title {
+  font-family: Sansita Swashed;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+.recipe-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.cake,
+.cupcake,
+.donuts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid rgb(223, 218, 197) 2px;
+  border-radius: 20px;
+  background-color: rgb(240, 235, 227);
+  padding: 40px;
+}
+#donut-image {
+  width: 400px;
+  height: 260px;
+}
+
+.image {
+  width: 400px;
+  height: auto;
+}
+a {
+  font-size: 40px;
+  font-family: Caprasimo;
+  background-color: rgb(240, 235, 227);
+  text-decoration: none;
+  color: black;
+  font-weight: 10;
+  padding-top: 27px;
+}
