@@ -3,24 +3,26 @@
   margin: 30px;
 }
 .title {
-  font-family: Kurale;
+  font-family: Caprasimo;
   font-size: 50px;
   text-align: center;
   color: rgb(0, 0, 0);
   text-shadow: 3px 3px 3px rgb(255, 255, 255);
 }
 .recipe-container {
-  margin: 200px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
-a {
-  font-size: 40px;
-  font-family: Caprasimo;
-  background-color: rgb(240, 235, 227);
+h1,
+h2,
+h3 {
+  font-family: Kurale;
+}
+p,
+li {
+  font-family: Kurale;
+  font-size: 18px;
   text-decoration: none;
   color: black;
-  font-weight: 10;
-  padding-top: 27px;
 }
